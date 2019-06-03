@@ -2,7 +2,8 @@
   "name": "freshdesk-api-client",
   "version": "1.0.0",
   "description": "node freshdesk-api-client",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start": "nodemon ./dist/index.js",
