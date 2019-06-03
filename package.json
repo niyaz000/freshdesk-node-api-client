@@ -10,7 +10,7 @@
     "prod": "npm run build && npm run start",
     "watch": "nodemon",
     "test": "mocha --timeout 20000 -r ts-node/register",
-    "test-all": "mocha --timeout 5000 -r ts-node/register tests/**/*.spec.ts"
+    "test-all": "mocha --timeout 20000 -r ts-node/register tests/**/*.spec.ts"
   },
   "keywords": [
     "node",
