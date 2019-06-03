@@ -80,6 +80,6 @@ export default class Company {
   }
 
   public async filter(query: string) {
-    return this.client.get(encodeURI(`search/${this.prefix}?query="${query}"`));
+    return this.client.get(`search/${this.prefix}?query="${query}"`);
   }
 }
